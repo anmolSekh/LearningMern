@@ -12,7 +12,7 @@ export default function Edit() {
     const navigate = useNavigate();
 
     useEffect(() => {
-        async function fetchData(){
+        async function fetchData() {
             const id= params.id.toString();
             const response = await fetch(`http://localhost:5000/record/${params.id.toString()}`);
             if(!response.ok) {

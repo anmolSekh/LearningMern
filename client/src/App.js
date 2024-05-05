@@ -4,7 +4,7 @@ import React from "react";
 import { Route,Routes } from "react-router-dom";
 
 // Import all components for app
-import Navbar from "./componenets/navbar";
+import Navbar from "./components/navbar";
 import RecordList from "./components/recordList";
 import Edit from "./components/edit";
 import Create from "./components/create";
